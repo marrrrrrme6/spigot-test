@@ -1,0 +1,17 @@
+name: Test
+version: '${project.version}'
+main: com.marme.plugin.test.test.Test
+api-version: 1.18
+authors: [ marme0532 ]
+description: test plugin
+
+commands:
+  test:
+    aliases: [ t, testest ]
+    description: test Command
+  gui:
+    aliases: ui
+    description: open gui Command
+  janken:
+    aliases: bsp
+    description: じゃんけんができる
